@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #111;
+  color: #bbb;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.animate-movey {
+  animation: movey 4s infinite ease alternate;
+}
+
+@keyframes movey {
+  from {
+    transform: translateY(+10px);
+  }
+}
