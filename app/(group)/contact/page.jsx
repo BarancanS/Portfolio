@@ -101,7 +101,7 @@ export default function Contact() {
                 <div className="flex flex-col max-sm:gap-2 max-sm:pl-4 max-md:gap-0 max-md:pl-2 gap-2 pl-4">
                   <h3 className="text-2xl">Email</h3>
                   <h4 className="text-slate-500 max-lg:text-sm text-lg">
-                    barancan@gmail.com
+                    barancansng@gmail.com
                   </h4>
                 </div>
               </div>
