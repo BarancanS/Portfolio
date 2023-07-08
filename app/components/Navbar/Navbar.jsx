@@ -45,7 +45,7 @@ const Navbar = () => {
           </Link>
         </div>
         {hamburger && (
-          <div className="flex justify-between  absolute top-0 left-0 w-2/4 min-h-[calc(100vh+4rem)]  bg-indigo-950 text-white z-10 md:hidden whitespace-nowrap">
+          <div className="flex justify-between  fixed h-full top-0 left-0 w-2/4 min-h-[calc(100vh+4rem)]  bg-indigo-950 text-white z-10 md:hidden whitespace-nowrap">
             <div className="max-sm:text-sm text-xl mt-4 ml-4">
               <Link href="/" onClick={() => setHamburger(!hamburger)}>
                 Baran
