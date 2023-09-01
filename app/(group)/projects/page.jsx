@@ -16,12 +16,14 @@ export default function Projects() {
           <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
             <Link
               href="/"
+              target="_blank"
               className="py-3 px-3 border-2 border-orange-400 rounded-full"
             >
               Live
             </Link>
             <Link
               href="/"
+              target="_blank"
               className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
             >
               Code
@@ -35,12 +37,14 @@ export default function Projects() {
           <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
             <Link
               href="https://baranflix.vercel.app/"
+              target="_blank"
               className="py-3 px-3 border-2 border-orange-400 rounded-full"
             >
               Live
             </Link>
             <Link
               href="/"
+              target="_blank"
               className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
             >
               Code
@@ -54,12 +58,14 @@ export default function Projects() {
           <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
             <Link
               href="https://umutsng.vercel.app/"
+              target="_blank"
               className="py-3 px-3 border-2 border-orange-400 rounded-full"
             >
               Live
             </Link>
             <Link
               href="/"
+              target="_blank"
               className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
             >
               Code
@@ -73,12 +79,14 @@ export default function Projects() {
           <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
             <Link
               href="/"
+              target="_blank"
               className="py-3 px-3 border-2 border-orange-400 rounded-full"
             >
               Live
             </Link>
             <Link
               href="/"
+              target="_blank"
               className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
             >
               Code
@@ -92,12 +100,14 @@ export default function Projects() {
           <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
             <Link
               href="/"
+              target="_blank"
               className="py-3 px-3 border-2 border-orange-400 rounded-full"
             >
               Live
             </Link>
             <Link
               href="/"
+              target="_blank"
               className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
             >
               Code
