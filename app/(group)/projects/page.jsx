@@ -129,7 +129,7 @@ export default function Projects() {
         >
           <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
             <Link
-              href="/"
+              href="https://umutsng.vercel.app/"
               className="py-3 px-3 border-2 border-orange-400 rounded-full"
             >
               Live
