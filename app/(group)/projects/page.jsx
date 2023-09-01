@@ -43,7 +43,7 @@ export default function Projects() {
               Live
             </Link>
             <Link
-              href="/"
+              href="https://github.com/BarancanS/Baranflix"
               target="_blank"
               className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
             >
@@ -64,7 +64,7 @@ export default function Projects() {
               Live
             </Link>
             <Link
-              href="/"
+              href="https://github.com/BarancanS/Umut"
               target="_blank"
               className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
             >
@@ -78,7 +78,7 @@ export default function Projects() {
         >
           <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
             <Link
-              href="/"
+              href="https://github.com/BarancanS/Portfolio"
               target="_blank"
               className="py-3 px-3 border-2 border-orange-400 rounded-full"
             >
