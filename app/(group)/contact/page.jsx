@@ -28,7 +28,7 @@ export default function Contact() {
   };
 
   return (
-    <main className="min-h-[calc(100vh-10rem)] w-11/12">
+    <main className="min-h-[calc(100vh-10rem)] w-11/12 mx-auto">
       <h1 className="text-7xl mb-10 max-md:text-4xl text-center">Contact Me</h1>
       <div className="flex  max-sm:flex-col">
         <div className="w-7/12 max-sm:w-11/12 ">
