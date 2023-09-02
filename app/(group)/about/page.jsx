@@ -35,7 +35,6 @@ export default function About() {
               - HTML5 | CSS3 | SCSS | Bootstrap | TailwindCSS | Styled
               Components | Material-UI
             </li>
-            <li>- MongoDB</li>
           </ul>
           <p>
             I’ve used these tools/technologies while working on my projects:
