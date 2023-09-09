@@ -11,108 +11,108 @@ export default function Projects() {
       <section className="display grid grid-cols-3 max-md:grid-cols-1 max-lg:grid-cols-2 gap-7">
         <div
           style={{ backgroundImage: "url(Baranflix.png)" }}
-          className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 border-2 border-indigo-900  rounded-md hover:scale-110 transition duration-400 ease-in-out"
+          className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 border-2 border-indigo-900  rounded-md hover:scale-110 transition duration-500 ease-in-out"
         >
-          <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
+          <div className="flex flex-row justify-center items-center gap-2 bg-black/[.63] text-black font-semibold opacity-0 hover:opacity-100 w-full h-full transition duration-500 ease-in-out">
             <Link
               href="https://baranflix.vercel.app/"
               target="_blank"
-              className="py-3 px-3 border-2 border-orange-400 rounded-full"
+              className="w-20 h-10 bg-white flex justify-center items-center rounded-full"
             >
               Live
             </Link>
             <Link
               href="https://github.com/BarancanS/Baranflix"
               target="_blank"
-              className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
+              className="w-20 h-10 bg-orange-400 flex justify-center items-center rounded-full"
             >
               Code
             </Link>
-          </button>
+          </div>
         </div>
         <div
           style={{ backgroundImage: "url(UmutCan.png)" }}
-          className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 border-2 border-indigo-900  rounded-md hover:scale-110 transition duration-400 ease-in-out"
+          className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 border-2 border-indigo-900  rounded-md hover:scale-110 transition duration-500 ease-in-out"
         >
-          <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
+          <div className="flex flex-row justify-center items-center gap-2 bg-black/[.63] text-black font-semibold opacity-0 hover:opacity-100 w-full h-full transition duration-500 ease-in-out">
             <Link
               href="https://umutsng.vercel.app/"
               target="_blank"
-              className="py-3 px-3 border-2 border-orange-400 rounded-full"
+              className="w-20 h-10 bg-white flex justify-center items-center rounded-full"
             >
               Live
             </Link>
             <Link
               href="https://github.com/BarancanS/Umut"
               target="_blank"
-              className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
+              className="w-20 h-10 bg-orange-400 flex justify-center items-center rounded-full"
             >
               Code
             </Link>
-          </button>
+          </div>
         </div>
         <div
           style={{ backgroundImage: "url(BaranPorfolio.png)" }}
-          className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 border-2 border-indigo-900  rounded-md hover:scale-110 transition duration-400 ease-in-out"
+          className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 border-2 border-indigo-900  rounded-md hover:scale-110 transition duration-500 ease-in-out"
         >
-          <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
+          <div className="flex flex-row justify-center items-center gap-2 bg-black/[.63] text-black font-semibold opacity-0 hover:opacity-100 w-full h-full transition duration-500 ease-in-out">
             <Link
               href="/"
               target="_blank"
-              className="py-3 px-3 border-2 border-orange-400 rounded-full"
+              className="w-20 h-10 bg-white flex justify-center items-center rounded-full"
             >
               Live
             </Link>
             <Link
               href="https://github.com/BarancanS/Portfolio"
               target="_blank"
-              className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
+              className="w-20 h-10 bg-orange-400 flex justify-center items-center rounded-full"
             >
               Code
             </Link>
-          </button>
+          </div>
         </div>
         <div
           style={{ backgroundImage: "url(AnkaragucuStore.png)" }}
-          className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 border-2 border-indigo-900  rounded-md hover:scale-110 transition duration-400 ease-in-out"
+          className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 border-2 border-indigo-900  rounded-md hover:scale-110 transition duration-500 ease-in-out"
         >
-          <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
+          <div className="flex flex-row justify-center items-center gap-2 bg-black/[.63] text-black font-semibold opacity-0 hover:opacity-100 w-full h-full transition duration-500 ease-in-out">
             <Link
               href="/"
               target="_blank"
-              className="py-3 px-3 border-2 border-orange-400 rounded-full"
+              className="w-20 h-10 bg-white flex justify-center items-center rounded-full"
             >
               Live
             </Link>
             <Link
               href="/"
               target="_blank"
-              className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
+              className="w-20 h-10 bg-orange-400 flex justify-center items-center rounded-full"
             >
               Code
             </Link>
-          </button>
+          </div>
         </div>
         <div
           style={{ backgroundImage: "url(PizzaRecipes.png)" }}
-          className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 border-2 border-indigo-900  rounded-md hover:scale-110 transition duration-400 ease-in-out"
+          className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 border-2 border-indigo-900  rounded-md hover:scale-110 transition duration-500 ease-in-out"
         >
-          <button className="text-orange-700 opacity-0 hover:opacity-100 w-full h-full">
+          <div className="flex flex-row justify-center items-center gap-2 bg-black/[.63] text-black font-semibold opacity-0 hover:opacity-100 w-full h-full transition duration-500 ease-in-out">
             <Link
               href="/"
               target="_blank"
-              className="py-3 px-3 border-2 border-orange-400 rounded-full"
+              className="w-20 h-10 bg-white flex justify-center items-center rounded-full"
             >
               Live
             </Link>
             <Link
               href="/"
               target="_blank"
-              className="py-3 px-2 border-2 border-orange-400 rounded-full ml-4"
+              className="w-20 h-10 bg-orange-400 flex justify-center items-center rounded-full"
             >
               Code
             </Link>
-          </button>
+          </div>
         </div>
       </section>
     </main>
