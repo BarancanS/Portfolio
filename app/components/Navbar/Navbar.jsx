@@ -6,21 +6,9 @@ import { CgClose } from "react-icons/cg";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-  const currentPage = usePathname();
   const [hamburger, setHamburger] = React.useState(false);
+  const pathName = usePathname();
 
-  const style1 =
-    currentPage === "/about"
-      ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
-      : "hover:text-indigo-300 transition duration-500 ease-in-out";
-  const style2 =
-    currentPage === "/projects"
-      ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
-      : "hover:text-indigo-300 transition duration-500 ease-in-out";
-  const style3 =
-    currentPage === "/contact"
-      ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
-      : "hover:text-indigo-300 transition duration-500 ease-in-out";
   return (
     <div className="h-20 relative">
       <div className=" flex items-center justify-between h-20 w-3/4 mx-auto">
@@ -34,13 +22,34 @@ const Navbar = () => {
           <GiHamburgerMenu onClick={() => setHamburger(!hamburger)} />
         </div>
         <div className="hidden md:flex space-x-16 text-2xl ">
-          <Link href="/about" className={style1}>
+          <Link
+            href="/about"
+            className={
+              pathName === "/about"
+                ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
+                : "hover:text-indigo-300 transition duration-500 ease-in-out"
+            }
+          >
             About
           </Link>
-          <Link href="/projects" className={style2}>
+          <Link
+            href="/projects"
+            className={
+              pathName === "/projects"
+                ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
+                : "hover:text-indigo-300 transition duration-500 ease-in-out"
+            }
+          >
             Projects
           </Link>
-          <Link href="/contact" className={style3}>
+          <Link
+            href="/contact"
+            className={
+              pathName === "/contact"
+                ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
+                : "hover:text-indigo-300 transition duration-500 ease-in-out"
+            }
+          >
             Contact
           </Link>
         </div>
@@ -50,8 +59,16 @@ const Navbar = () => {
               hamburger ? "translate-x-0" : "translate-x-[-100%]"
             } transition-transform duration-500 ease-in-out`}
           >
-            <div className="max-sm:text-sm text-xl mt-4 ml-4">
-              <Link href="/" onClick={() => setHamburger(!hamburger)}>
+            <div className="text-3xl mt-4 ml-4">
+              <Link
+                href="/"
+                className={
+                  pathName === "/"
+                    ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
+                    : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                }
+                onClick={() => setHamburger(!hamburger)}
+              >
                 Baran
               </Link>
             </div>
@@ -59,7 +76,11 @@ const Navbar = () => {
               <div>
                 <Link
                   href="/about"
-                  className={style1}
+                  className={
+                    pathName === "/about"
+                      ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
+                      : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                  }
                   onClick={() => setHamburger(!hamburger)}
                 >
                   About
@@ -67,14 +88,22 @@ const Navbar = () => {
               </div>
               <Link
                 href="/projects"
-                className={style2}
+                className={
+                  pathName === "/projects"
+                    ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
+                    : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                }
                 onClick={() => setHamburger(!hamburger)}
               >
                 Projects
               </Link>
               <Link
                 href="/contact"
-                className={style3}
+                className={
+                  pathName === "/contact"
+                    ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
+                    : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                }
                 onClick={() => setHamburger(!hamburger)}
               >
                 Contact
@@ -83,7 +112,7 @@ const Navbar = () => {
             <div className="mt-5 mr-4">
               <CgClose
                 onClick={() => setHamburger(!hamburger)}
-                className="text-2xl max-sm:text-sm"
+                className="text-3xl"
               />
             </div>
           </div>
