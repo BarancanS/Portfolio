@@ -1,27 +1,27 @@
 "use client";
 import Button from "./components/Button/Button";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Typed from "typed.js";
 import Image from "next/image";
+import { useEffect } from "react";
 export default function Home() {
-  const [asd] = useTypewriter({
-    words: [
-      "React Developer",
-      "Designer",
-      "Wordpress Developer",
-      "Computer Programmer",
-    ],
-    loop: {},
-    typeSpeed: 100,
-    deleteSpeed: 60,
+  useEffect(() => {
+    const typed = new Typed(".asd", {
+      strings: [
+        "React Developer",
+        "Designer",
+        "Wordpress Developer",
+        "Computer Programmer",
+      ],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true,
+    });
   });
   return (
     <main className="min-h-[calc(100vh-10rem)] flex items-center justify-center max-sm:flex-col">
       <div className="w-4/12 max-md:w-8/12 max-lg:w-8/12 md:p-4 max-sm:w-11/12">
         <h1 className="text-4xl max-sm:text-xl font-semibold text-indigo-700">
-          I'am a <span className="text-white"> {asd}</span>
-          <span className="text-red-900 text-2xl">
-            <Cursor cursorStyle="|" />
-          </span>
+          I'am a <span className="text-white asd"></span>
         </h1>
         <p className="mt-4 max-sm:text-xs max-md:text-lg lg:text-xl">
           Hi, I'm Baran Can Sünnetçioğlu. A passionate Front-end React Developer
