@@ -1,8 +1,22 @@
 "use client";
 import React, { useEffect } from "react";
 import Image from "next/image";
+import { gsap } from "gsap";
+import SplitText from "gsap-trial/SplitText";
 
 export default function About() {
+  useEffect(() => {
+    gsap.registerPlugin(SplitText);
+    let mySplitText = new SplitText(".split", { type: "chars" });
+    let chars = mySplitText.chars;
+    gsap.from(chars, {
+      yPercent: -50,
+      xPercent: -50,
+      // stagger: 0.02,
+      ease: "back.out",
+      duration: 2,
+    });
+  });
   return (
     <main className="min-h-[calc(100vh-10rem)] flex items-center justify-center gap-10 px-5 max-lg:flex-col">
       <div className="w-6/12 mx-auto max-lg:w-11/12  max-sm:mt-12">
@@ -18,7 +32,7 @@ export default function About() {
           <br />
           <br />
         </p>
-        <div className="w-full mx-auto  max-lg:w-11/12 max-md:text-xs lg:text-xl mt-3 ">
+        <div className="w-full mx-auto  max-lg:w-11/12 max-md:text-xs lg:text-xl mt-3 split">
           <h2>Skillset:</h2>
           <ul>
             <li>- ES6 | TypeScript</li>
