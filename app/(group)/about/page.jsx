@@ -10,20 +10,20 @@ export default function About() {
           About Me
         </h1>
         <p className="w-full mx-auto  max-lg:w-11/12 max-md:text-xs lg:text-xl mt-3">
-          I am a Frontend developer who uses React, NextJs and NodeJs preferably
-          in my projects with 1+ years experience. I am a dedicated adaptable
-          Software Developer who is an enthusiastic learner of new technologies.
-          Looking for a challenging working environment where I can develop
-          myself and contribute to both individual and team projects.
+          I am a Frontend developer who uses React, NextJs preferably in my
+          projects with 1+ years experience. I am a dedicated adaptable React
+          Developer who is an enthusiastic learner of new technologies. Looking
+          for a challenging working environment where I can develop myself and
+          contribute to both individual and team projects.
           <br />
           <br />
         </p>
         <div className="w-full mx-auto  max-lg:w-11/12 max-md:text-xs lg:text-xl mt-3">
           <h2>Skillset:</h2>
           <ul>
+            <li>- WordPress</li>
             <li>- ES6 | TypeScript</li>
-            <li>- NodeJS | NestJS</li>
-            <li>- React | NestJS</li>
+            <li>- React JS | Next JS</li>
             <li>
               - HTML5 | CSS3 | SCSS | Bootstrap | TailwindCSS | Styled
               Components | Material-UI
@@ -31,7 +31,7 @@ export default function About() {
           </ul>
           <p>
             I’ve used these tools/technologies while working on my projects:
-            Git, Github, ESLint, Prettier, Yarn, Npm, and much more.
+            Git, Github, ESLint, Npm, and much more.
           </p>
         </div>
       </div>
