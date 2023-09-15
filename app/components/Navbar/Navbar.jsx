@@ -68,8 +68,8 @@ const Navbar = () => {
                 href="/"
                 className={
                   pathName === "/"
-                    ? "hover:border-b-2  text-orange-700 transition duration-500 ease-in-out"
-                    : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
+                    ? "text-orange-700 transition duration-500 ease-in-out"
+                    : "hover:text-indigo-300 transition duration-500 ease-in-out"
                 }
                 onClick={() => setHamburger(!hamburger)}
               >
@@ -82,8 +82,8 @@ const Navbar = () => {
                   href="/about"
                   className={
                     pathName === "/about"
-                      ? "hover:border-b-2  text-orange-700 transition duration-500 ease-in-out"
-                      : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
+                      ? "text-orange-700 transition duration-500 ease-in-out"
+                      : "hover:text-indigo-300 transition duration-500 ease-in-out"
                   }
                   onClick={() => setHamburger(!hamburger)}
                 >
@@ -94,8 +94,8 @@ const Navbar = () => {
                 href="/projects"
                 className={
                   pathName === "/projects"
-                    ? "hover:border-b-2  text-orange-700 transition duration-500 ease-in-out"
-                    : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
+                    ? "text-orange-700 transition duration-500 ease-in-out"
+                    : "hover:text-indigo-300 transition duration-500 ease-in-out"
                 }
                 onClick={() => setHamburger(!hamburger)}
               >
@@ -105,8 +105,8 @@ const Navbar = () => {
                 href="/contact"
                 className={
                   pathName === "/contact"
-                    ? "hover:border-b-2  text-orange-700 transition duration-500 ease-in-out"
-                    : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
+                    ? "text-orange-700 transition duration-500 ease-in-out"
+                    : "hover:text-indigo-300 transition duration-500 ease-in-out"
                 }
                 onClick={() => setHamburger(!hamburger)}
               >
