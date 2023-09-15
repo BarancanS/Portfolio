@@ -1,29 +1,15 @@
 "use client";
 import React, { useEffect } from "react";
 import Image from "next/image";
-import { gsap } from "gsap";
-import SplitText from "gsap-trial/SplitText";
 
 export default function About() {
-  useEffect(() => {
-    gsap.registerPlugin(SplitText);
-    let mySplitText = new SplitText(".split", { type: "chars" });
-    let chars = mySplitText.chars;
-    gsap.from(chars, {
-      yPercent: -50,
-      xPercent: -50,
-      // stagger: 0.02,
-      ease: "back.out",
-      duration: 2,
-    });
-  });
   return (
     <main className="min-h-[calc(100vh-10rem)] flex items-center justify-center gap-10 px-5 max-lg:flex-col">
       <div className="w-6/12 mx-auto max-lg:w-11/12  max-sm:mt-12">
-        <h1 className="w-full mx-auto max-lg:w-11/12 sm:text-2xl lg:text-4xl split font-semibold  text-indigo-600">
+        <h1 className="w-full mx-auto max-lg:w-11/12 sm:text-2xl lg:text-4xl font-semibold  text-indigo-600">
           About Me
         </h1>
-        <p className="w-full mx-auto  max-lg:w-11/12 max-md:text-xs lg:text-xl mt-3 split">
+        <p className="w-full mx-auto  max-lg:w-11/12 max-md:text-xs lg:text-xl mt-3">
           I am a Frontend developer who uses React, NextJs and NodeJs preferably
           in my projects with 1+ years experience. I am a dedicated adaptable
           Software Developer who is an enthusiastic learner of new technologies.
@@ -32,7 +18,7 @@ export default function About() {
           <br />
           <br />
         </p>
-        <div className="w-full mx-auto  max-lg:w-11/12 max-md:text-xs lg:text-xl mt-3 split">
+        <div className="w-full mx-auto  max-lg:w-11/12 max-md:text-xs lg:text-xl mt-3">
           <h2>Skillset:</h2>
           <ul>
             <li>- ES6 | TypeScript</li>
