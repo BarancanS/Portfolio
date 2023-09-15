@@ -59,7 +59,7 @@ const Navbar = () => {
         </div>
         {
           <div
-            className={`flex justify-between h-full md:hidden fixed inset-0 bg-indigo-950 text-white whitespace-nowrap max-lg:bg-opacity-80 z-30 py-4 top-0 left-0  ${
+            className={`flex justify-between h-full md:hidden fixed inset-0 bg-indigo-950 text-white whitespace-nowrap max-lg:bg-opacity-92 z-30 py-4 top-0 left-0  ${
               hamburger ? "translate-x-0" : "translate-x-[-100%]"
             } transition-transform duration-500 ease-in-out`}
           >
@@ -68,7 +68,7 @@ const Navbar = () => {
                 href="/"
                 className={
                   pathName === "/"
-                    ? "hover:border-b-2  text-orange-800 transition duration-500 ease-in-out"
+                    ? "hover:border-b-2  text-orange-700 transition duration-500 ease-in-out"
                     : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
                 }
                 onClick={() => setHamburger(!hamburger)}
@@ -82,7 +82,7 @@ const Navbar = () => {
                   href="/about"
                   className={
                     pathName === "/about"
-                      ? "hover:border-b-2  text-orange-800 transition duration-500 ease-in-out"
+                      ? "hover:border-b-2  text-orange-700 transition duration-500 ease-in-out"
                       : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
                   }
                   onClick={() => setHamburger(!hamburger)}
@@ -94,7 +94,7 @@ const Navbar = () => {
                 href="/projects"
                 className={
                   pathName === "/projects"
-                    ? "hover:border-b-2  text-orange-800 transition duration-500 ease-in-out"
+                    ? "hover:border-b-2  text-orange-700 transition duration-500 ease-in-out"
                     : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
                 }
                 onClick={() => setHamburger(!hamburger)}
@@ -105,7 +105,7 @@ const Navbar = () => {
                 href="/contact"
                 className={
                   pathName === "/contact"
-                    ? "hover:border-b-2  text-orange-800 transition duration-500 ease-in-out"
+                    ? "hover:border-b-2  text-orange-700 transition duration-500 ease-in-out"
                     : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
                 }
                 onClick={() => setHamburger(!hamburger)}
