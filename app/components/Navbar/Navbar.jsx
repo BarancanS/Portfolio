@@ -59,7 +59,7 @@ const Navbar = () => {
         </div>
         {
           <div
-            className={`flex justify-between h-full md:hidden fixed inset-0 bg-indigo-950 text-white whitespace-nowrap max-lg:bg-opacity-92 z-30 py-4 top-0 left-0  ${
+            className={`flex justify-between h-full md:hidden fixed inset-0 bg-indigo-950 text-white whitespace-nowrap max-lg:bg-opacity-100 z-30 py-4 top-0 left-0  ${
               hamburger ? "translate-x-0" : "translate-x-[-100%]"
             } transition-transform duration-500 ease-in-out`}
           >
