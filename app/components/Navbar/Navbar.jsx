@@ -14,7 +14,11 @@ const Navbar = () => {
       <div className=" flex items-center justify-between h-20 w-3/4 mx-auto">
         <Link
           href="/"
-          className="text-2xl md:text-4xl text-transparent bg-gradient-to-r bg-clip-text from-zinc-100 to-zinc-700"
+          className={
+            pathName === "/"
+              ? "text-2xl md:text-4xl hover:border-b-2  text-transparent bg-gradient-to-r bg-clip-text from-indigo-700 to-white transition duration-500 ease-in-out"
+              : "text-2xl md:text-4xl hover:border-b-2 hover:text-indigo-300 text-transparent bg-gradient-to-r bg-clip-text from-zinc-100 to-zinc-700 transition duration-500 ease-in-out"
+          }
         >
           BARAN CAN
         </Link>
@@ -26,8 +30,8 @@ const Navbar = () => {
             href="/about"
             className={
               pathName === "/about"
-                ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
-                : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                ? "hover:border-b-2  text-indigo-800 transition duration-500 ease-in-out"
+                : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
             }
           >
             About
@@ -36,8 +40,8 @@ const Navbar = () => {
             href="/projects"
             className={
               pathName === "/projects"
-                ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
-                : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                ? "hover:border-b-2  text-indigo-800 transition duration-500 ease-in-out"
+                : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
             }
           >
             Projects
@@ -46,8 +50,8 @@ const Navbar = () => {
             href="/contact"
             className={
               pathName === "/contact"
-                ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
-                : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                ? "hover:border-b-2  text-indigo-800 transition duration-500 ease-in-out"
+                : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
             }
           >
             Contact
@@ -64,8 +68,8 @@ const Navbar = () => {
                 href="/"
                 className={
                   pathName === "/"
-                    ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
-                    : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                    ? "hover:border-b-2  text-indigo-800 transition duration-500 ease-in-out"
+                    : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
                 }
                 onClick={() => setHamburger(!hamburger)}
               >
@@ -78,8 +82,8 @@ const Navbar = () => {
                   href="/about"
                   className={
                     pathName === "/about"
-                      ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
-                      : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                      ? "hover:border-b-2  text-indigo-800 transition duration-500 ease-in-out"
+                      : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
                   }
                   onClick={() => setHamburger(!hamburger)}
                 >
@@ -90,8 +94,8 @@ const Navbar = () => {
                 href="/projects"
                 className={
                   pathName === "/projects"
-                    ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
-                    : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                    ? "hover:border-b-2  text-indigo-800 transition duration-500 ease-in-out"
+                    : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
                 }
                 onClick={() => setHamburger(!hamburger)}
               >
@@ -101,8 +105,8 @@ const Navbar = () => {
                 href="/contact"
                 className={
                   pathName === "/contact"
-                    ? "hover:text-white text-orange-700 transition duration-500 ease-in-out"
-                    : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                    ? "hover:border-b-2  text-indigo-800 transition duration-500 ease-in-out"
+                    : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
                 }
                 onClick={() => setHamburger(!hamburger)}
               >

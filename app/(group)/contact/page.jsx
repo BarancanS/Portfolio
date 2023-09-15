@@ -11,7 +11,7 @@ export default function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_v0lzh5m",
+        "service_1w4yi4p",
         "template_0dtw8u6",
         form.current,
         "ORMfpcyEwiZ1F6dH8"
@@ -44,15 +44,6 @@ export default function Contact() {
               name="name"
               required
               minLength="3"
-              maxLength="20"
-            />
-            <input
-              type="text"
-              placeholder="Enter Your Surname"
-              className="transition duration-500 hover:scale-105 bg-transparent w-6/12 max-sm:w-9/12 h-10 border-2 border-slate-400 pl-3 mt-3 rounded-md"
-              name="surname"
-              required
-              minLength="2"
               maxLength="20"
             />
             <input

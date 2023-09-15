@@ -5,7 +5,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="h-20 w-3/4 max-sm:gap-2 max-sm:px-2 max-sm:w-5/6 mx-auto flex items-center justify-between text-xs md:text-xl whitespace-nowrap">
-      <div className="">@ Made By: Baran</div>
+      <div className="">Made By: Baran</div>
       <div className="flex max-sm:gap-1 gap-3 flex-row">
         <Link target="_blank" href="https://www.instagram.com/barancan.sng/">
           <Image
