@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 export default function Home() {
   useEffect(() => {
-    const typed = new Typed(".asd", {
+    const typed = new Typed(".typedJs", {
       strings: [
         "React Developer",
         "Designer",
@@ -21,7 +21,7 @@ export default function Home() {
     <main className="min-h-[calc(100vh-10rem)] flex items-center justify-center max-sm:flex-col">
       <div className="w-4/12 max-md:w-8/12 max-lg:w-8/12 md:p-4 max-sm:w-11/12">
         <h1 className="text-4xl max-sm:text-xl font-semibold text-indigo-700">
-          I'am a <span className="text-white asd"></span>
+          I'am a <span className="text-white typedJs"></span>
         </h1>
         <p className="mt-4 max-sm:text-xs max-md:text-lg lg:text-xl">
           Hi, I'm Baran Can Sünnetçioğlu. A passionate Front-end React Developer
