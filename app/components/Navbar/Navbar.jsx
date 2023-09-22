@@ -63,7 +63,8 @@ const Navbar = () => {
               hamburger ? "translate-x-0" : "translate-x-[-100%]"
             } transition-transform duration-500 ease-in-out`}
           >
-            <div className="text-3xl mt-4 ml-4">
+            <div className="text-3xl mt-4 ml-12"></div>
+            <div className="flex flex-col items-center justify-center text-4xl">
               <Link
                 href="/"
                 className={
@@ -73,23 +74,19 @@ const Navbar = () => {
                 }
                 onClick={() => setHamburger(!hamburger)}
               >
-                Baran
+                Home
               </Link>
-            </div>
-            <div className="flex flex-col items-center justify-center max-sm:text-sm text-xl">
-              <div>
-                <Link
-                  href="/about"
-                  className={
-                    pathName === "/about"
-                      ? "text-orange-700 transition duration-500 ease-in-out"
-                      : "hover:text-indigo-300 transition duration-500 ease-in-out"
-                  }
-                  onClick={() => setHamburger(!hamburger)}
-                >
-                  About
-                </Link>
-              </div>
+              <Link
+                href="/about"
+                className={
+                  pathName === "/about"
+                    ? "text-orange-700 transition duration-500 ease-in-out"
+                    : "hover:text-indigo-300 transition duration-500 ease-in-out"
+                }
+                onClick={() => setHamburger(!hamburger)}
+              >
+                About
+              </Link>
               <Link
                 href="/projects"
                 className={
@@ -116,7 +113,7 @@ const Navbar = () => {
             <div className="mt-5 mr-4">
               <CgClose
                 onClick={() => setHamburger(!hamburger)}
-                className="text-3xl"
+                className="text-4xl"
               />
             </div>
           </div>
