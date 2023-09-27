@@ -30,7 +30,10 @@ export default function Contact() {
   return (
     <main
       className="min-h-[calc(100vh-10rem)] w-11/12 mx-auto  bg-cover bg-no-repeat bg-center "
-      style={{ backgroundImage: "url(space.png)" }}
+      style={{
+        backgroundImage:
+          "url(https://images.hdqwalls.com/download/abstract-wire-cage-4k-sk-1920x1080.jpg)",
+      }}
     >
       <div className="w-full min-h-[calc(100vh-10rem)] mx-auto bg-black/[.63]">
         <h1 className="text-7xl mb-10 max-md:text-4xl text-center">
