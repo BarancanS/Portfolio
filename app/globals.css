@@ -49,3 +49,6 @@ a {
     transform: translateX(-150px);
   }
 }
+textarea {
+  resize: none;
+}
