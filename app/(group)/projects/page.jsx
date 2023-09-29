@@ -1,7 +1,8 @@
 import Link from "next/link";
 export const metadata = {
-  title: "Projects  Page",
-  description: "Projects  Page",
+  title: "Projects Page",
+  description:
+    "Explore my portfolio of web projects and applications. See live demos and check out the source code on GitHub.",
 };
 
 export default function Projects() {
