@@ -62,7 +62,7 @@ export default function Contact() {
                 name="email"
                 required
                 minLength="8"
-                maxLength="20"
+                maxLength="50"
               />
               <textarea
                 id=""
