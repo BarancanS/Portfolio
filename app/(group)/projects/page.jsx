@@ -74,12 +74,12 @@ export default function Projects() {
           </div>
         </div>
         <div
-          style={{ backgroundImage: "url(AnkaragucuStore.png)" }}
+          style={{ backgroundImage: "url(FinanceTracker.png)" }}
           className="flex flex-row items-center justify-center bg-cover bg-no-repeat bg-center max-sm:w-60 max-sm:h-40 w-80 h-60 rounded-md hover:scale-110 transition duration-500 ease-in-out"
         >
           <div className="flex flex-row justify-center items-center gap-2 bg-black/[.63] text-black font-semibold opacity-0 hover:opacity-100 w-full h-full transition duration-500 ease-in-out">
             <Link
-              href="/"
+              href="https://barancans-finance-tracker.vercel.app/"
               target="_blank"
               className="w-20 h-10 bg-white flex justify-center items-center rounded-full"
             >
