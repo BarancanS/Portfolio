@@ -48,7 +48,7 @@ export default function Contact() {
             >
               <input
                 type="text"
-                placeholder="Enter Your Name"
+                placeholder="Name"
                 className="transition duration-500 hover:scale-105 bg-black/[.63] w-6/12 max-sm:w-9/12 h-10 border-2 border-slate-400 pl-3 rounded-md"
                 name="name"
                 required
@@ -57,7 +57,7 @@ export default function Contact() {
               />
               <input
                 type="email"
-                placeholder="Enter Your Email"
+                placeholder="Email"
                 className="transition duration-500 ease-in-out hover:scale-105 bg-black/[.63] w-6/12 max-sm:w-9/12 h-10 border-2 border-slate-400 pl-3 mt-3 rounded-md"
                 name="email"
                 required
@@ -70,7 +70,7 @@ export default function Contact() {
                 rows="10"
                 className="transition duration-500 hover:scale-105 bg-black/[.63] w-6/12 max-sm:w-9/12 border-2 border-slate-400 pl-3 mt-3 rounded-md"
                 name="message"
-                placeholder="Enter Your Message"
+                placeholder="Message"
                 required
                 minLength="10"
                 maxLength="500"
