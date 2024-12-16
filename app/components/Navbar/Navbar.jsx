@@ -12,8 +12,8 @@ const Navbar = () => {
   const pathName = usePathname();
 
   return (
-    <div className="p-2">
-      <div className="flex items-center justify-between  w-3/4 mx-auto">
+    <div className="p-2 flex items-center justify-center">
+      <div className="flex items-center justify-between  w-3/4">
         <Link
           href="/"
           className={
@@ -22,7 +22,7 @@ const Navbar = () => {
               : "text-2xl md:text-4xl hover:scale-105  hover:text-indigo-300 text-transparent bg-gradient-to-r bg-clip-text from-zinc-100 to-zinc-700 transition duration-500 ease-in-out"
           }
         >
-          <Image src={Logo} alt="Logo" className="w-24 max-md:w-14 rounded-full"/>
+          <Image src={Logo} alt="Logo" className="w-20 max-md:w-14 rounded-full"/>
         </Link>
         <div className="text-4xl md:hidden">
           <GiHamburgerMenu onClick={() => setHamburger(!hamburger)} />
