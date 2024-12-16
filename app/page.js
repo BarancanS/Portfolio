@@ -25,7 +25,7 @@ export default function Home() {
         </h1>
         <p className="mt-4 max-sm:text-xs max-md:text-lg lg:text-xl">
           Hi, I'm Baran Can Sünnetçioğlu. A passionate Front-end React Developer
-          based in Ankara, Turkey. I've worked on a variety of projects over the
+          based in Melbourne, Australia. I've worked on a variety of projects over the
           one year and I'm proud of the progress I've made. Many of these
           projects are open-source and available for others to explore and
           contribute to. If you're interested in any of the projects I've worked
