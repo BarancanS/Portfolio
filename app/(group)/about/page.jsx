@@ -11,7 +11,7 @@ export default function About() {
   return (
     <main className="min-h-[calc(100vh-10rem)] flex items-center justify-center gap-10 px-5 max-lg:flex-col">
       <div className="w-6/12 mx-auto max-lg:w-11/12  max-sm:mt-12 slide transition-transform duration-500 ease-in-out">
-        <h1 className="w-full mx-auto max-lg:w-11/12 sm:text-2xl lg:text-4xl font-semibold  text-indigo-600">
+        <h1 className="w-full mx-auto max-lg:w-11/12 sm:text-2xl lg:text-4xl font-semibold">
           About Me
         </h1>
         <p className="w-full mx-auto  max-lg:w-11/12 max-md:text-xs lg:text-xl mt-3">

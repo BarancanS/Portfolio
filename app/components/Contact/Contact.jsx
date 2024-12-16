@@ -90,7 +90,7 @@ export default function Contact() {
                   <div className="flex flex-col max-sm:pl-0  max-md:pl-2 gap-2 pl-4">
                     <h3 className="text-2xl">Phone</h3>
                     <h4 className="text-slate-500 max-lg:text-sm text-lg">
-                      +90 539 668 9348
+                      +61 481 955 201
                     </h4>
                   </div>
                 </div>
@@ -112,7 +112,7 @@ export default function Contact() {
                   <div className="flex flex-col max-sm:pl-0  max-md:pl-2 gap-2 pl-4">
                     <h3 className="text-2xl">Address</h3>
                     <h4 className="text-slate-500 max-lg:text-sm text-lg">
-                      Ankara/Turkey
+                      Melbourne/Australia
                     </h4>
                   </div>
                 </div>

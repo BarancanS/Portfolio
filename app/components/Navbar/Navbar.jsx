@@ -4,23 +4,25 @@ import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
+import Logo from "../../Images/Logo.png"
 
 const Navbar = () => {
   const [hamburger, setHamburger] = React.useState(false);
   const pathName = usePathname();
 
   return (
-    <div className="h-20 relative">
-      <div className=" flex items-center justify-between h-20 w-3/4 mx-auto">
+    <div className="p-2">
+      <div className="flex items-center justify-between  w-3/4 mx-auto">
         <Link
           href="/"
           className={
             pathName === "/"
-              ? "text-2xl md:text-4xl hover:border-b-2  text-transparent bg-gradient-to-r bg-clip-text from-indigo-700 to-white transition duration-500 ease-in-out"
-              : "text-2xl md:text-4xl hover:border-b-2 hover:text-indigo-300 text-transparent bg-gradient-to-r bg-clip-text from-zinc-100 to-zinc-700 transition duration-500 ease-in-out"
+              ? "text-2xl md:text-4xl hover:scale-105  text-transparent bg-gradient-to-r bg-clip-text from-indigo-700 to-white transition duration-500 ease-in-out"
+              : "text-2xl md:text-4xl hover:scale-105  hover:text-indigo-300 text-transparent bg-gradient-to-r bg-clip-text from-zinc-100 to-zinc-700 transition duration-500 ease-in-out"
           }
         >
-          BARAN CAN
+          <Image src={Logo} alt="Logo" className="w-24 max-md:w-14 rounded-full"/>
         </Link>
         <div className="text-4xl md:hidden">
           <GiHamburgerMenu onClick={() => setHamburger(!hamburger)} />
@@ -30,8 +32,8 @@ const Navbar = () => {
             href="/about"
             className={
               pathName === "/about"
-                ? "hover:border-b-2  text-indigo-800 transition duration-500 ease-in-out"
-                : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
+                ? "hover:scale-105  text-indigo-800 transition duration-500 ease-in-out"
+                : "hover:text-indigo-300 hover:scale-105 transition duration-500 ease-in-out"
             }
           >
             About
@@ -40,8 +42,8 @@ const Navbar = () => {
             href="/projects"
             className={
               pathName === "/projects"
-                ? "hover:border-b-2  text-indigo-800 transition duration-500 ease-in-out"
-                : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
+                ? "hover:scale-105  text-indigo-800 transition duration-500 ease-in-out"
+                : "hover:text-indigo-300 hover:scale-105 transition duration-500 ease-in-out"
             }
           >
             Projects
@@ -50,8 +52,8 @@ const Navbar = () => {
             href="/contact"
             className={
               pathName === "/contact"
-                ? "hover:border-b-2  text-indigo-800 transition duration-500 ease-in-out"
-                : "hover:text-indigo-300 hover:border-b-2 transition duration-500 ease-in-out"
+                ? "hover:scale-105  text-indigo-800 transition duration-500 ease-in-out"
+                : "hover:text-indigo-300 hover:scale-105 transition duration-500 ease-in-out"
             }
           >
             Contact
